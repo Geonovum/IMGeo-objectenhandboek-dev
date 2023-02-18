@@ -68,7 +68,7 @@ script: |
   document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
   console.log(document.getElementsByClassName('prev')[0].innerHTML)
   
-  document.getElementsByClassName('navigation-top')[0].append('<a class="pdf" href="javascript: console.log('open widget');" title="Print to PDF" rel="noreferrer" target="_blank"> <i class="fa fa-file-pdf-o"></i> </a>
+  document.getElementsByClassName('navigation-top')[0].append('<a class="pdf" href="javascript: console.log(\'open widget\');" title="Print to PDF" rel="noreferrer" target="_blank"> <i class="fa fa-file-pdf-o"></i> </a>');
 scss: |
   @import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css'); 
   .sidebar{background: #fff;}
