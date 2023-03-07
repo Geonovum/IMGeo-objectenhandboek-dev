@@ -68,7 +68,6 @@ script: |
   document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
   
   document.getElementsByClassName('navigation-top')[0].innerHTML = '<a class="pdf" href="javascript: console.log(\'open widget\');" title="Print to PDF" rel="noreferrer" target="_blank"><i class="fa fa-file-pdf-o"></i> </a>' +  document.getElementsByClassName('navigation-top')[0].innerHTML;
-
   document.getElementsByTagName('body')[0].append('<div class="overlay"></div>');
   
   
