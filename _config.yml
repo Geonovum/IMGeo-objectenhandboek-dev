@@ -98,6 +98,6 @@ scss: |
         }
   } 
   .faq { background-color: #007ea9; padding: 12px;}  
-  .printWindow { visibility: hidden; margin: 25%; width: auto; height: auto; border: solid 1px blue; }
+  .printWindow { position: absolute; visibility: hidden; margin: 25%; width: auto; height: auto; border: solid 1px blue; }
   
 
