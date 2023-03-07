@@ -98,6 +98,6 @@ scss: |
         }
   } 
   .faq { background-color: #007ea9; padding: 12px;}  
-  .overlay { background-color: #000; border: solid 1px blue; }
+  .overlay { width: 400px; height: 200px; background-color: #000; border: solid 1px blue; }
   
 
