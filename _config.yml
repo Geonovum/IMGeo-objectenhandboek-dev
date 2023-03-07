@@ -68,7 +68,7 @@ script: |
   document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
   
   document.getElementsByClassName('navigation-top')[0].innerHTML = document.getElementsByClassName('navigation-top')[0].innerHTML + '<a class="print" href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility = \'visible\';" title="Print to PDF" rel="noreferrer" style="position: absolute; right: 0px"><i class="fa fa-file-pdf-o"> Print PDF</i> </a>';
-  document.getElementsByClassName('content')[0].innerHTML ='<iframe class="printWindow" src="http://85.214.237.242/test/md2pdf/"></iframe>' + document.getElementsByClassName('content')[0].innerHTML; 
+  document.getElementsByClassName('content')[0].innerHTML = '<iframe class="printWindow" src="http://85.214.237.242/test/md2pdf/"></iframe>' + document.getElementsByClassName('content')[0].innerHTML; 
   
   
 scss: |
