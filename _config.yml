@@ -67,13 +67,12 @@ script: |
   document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="faq"><div class="title"><i class="fa fa-question-circle-o"></i><a style="text-decoration: none" href="/IMGeo-objectenhandboek-dev/veelgesteldevragen">&nbsp;&nbsp;Veelgestelde vragen</a></div></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML;  
   document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
   
-  document.getElementsByClassName('navigation-top')[0].innerHTML = document.getElementsByClassName('navigation-top')[0].innerHTML + '<a class="print" href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility = \'visible\';" title="Print to PDF" rel="noreferrer" style="position: absolute; right: 0px"><i class="fa fa-file-pdf-o"></i> </a>';
-  
+  document.getElementsByClassName('navigation-top')[0].innerHTML=document.getElementsByClassName('navigation-top')[0].innerHTML+'<a class="print" href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'visible\';" title="Print to PDF" rel="noreferrer" style="position: absolute; right: 0px"><i class="fa fa-file-pdf-o"> </i></a>';  
   document.getElementsByClassName('content')[0].innerHTML = '<iframe class="printWindow" src="http://85.214.237.242/test/md2pdf/"></iframe>' + document.getElementsByClassName('content')[0].innerHTML; 
   
   
 scss: |
-  @import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css'); 
+  @import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css');
   .sidebar{background: #fff;}
   a {color:#008dc9;}
   .toctree a{color:#000; padding-left: 8}
