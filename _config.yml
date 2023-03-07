@@ -67,7 +67,8 @@ script: |
   document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="faq"><div class="title"><i class="fa fa-question-circle-o"></i><a style="text-decoration: none" href="/IMGeo-objectenhandboek-dev/veelgesteldevragen">&nbsp;&nbsp;Veelgestelde vragen</a></div></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML;  
   document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
   
-  document.getElementsByClassName('container')[0].innerHTML ='<iframe class="overlay" src="http://85.214.237.242/test/md2pdf/"></iframe>' + document.getElementsByClassName('container')[0].innerHTML; 
+  document.getElementsByClassName('
+  document.getElementsByClassName('content')[0].innerHTML ='<iframe class="printWindow" src="http://85.214.237.242/test/md2pdf/"></iframe>' + document.getElementsByClassName('content')[0].innerHTML; 
   
   
 scss: |
@@ -97,6 +98,6 @@ scss: |
         }
   } 
   .faq { background-color: #007ea9; padding: 12px;}  
-  .overlay { right: 0px; width: 400px; height: 200px; background-color: #000; border: solid 1px blue; }
+  .printWindow { margin: 25%; width: auto; height: auto; border: solid 1px blue; }
   
 
