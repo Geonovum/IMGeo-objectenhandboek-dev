@@ -67,7 +67,7 @@ script: |
   document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="faq"><div class="title"><i class="fa fa-question-circle-o"></i><a style="text-decoration: none" href="/IMGeo-objectenhandboek-dev/veelgesteldevragen">&nbsp;&nbsp;Veelgestelde vragen</a></div></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML;  
   document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
   
-  document.getElementsByClassName('navigation-top')[0].append('<a class="pdf" href="javascript: console.log(\'open widget\');" title="Print to PDF" rel="noreferrer" target="_blank"><i class="fa fa-file-pdf-o"></i> </a>');
+  document.getElementsByClassName('navigation-top')[0].innerHTML = '<a class="pdf" href="javascript: console.log(\'open widget\');" title="Print to PDF" rel="noreferrer" target="_blank"><i class="fa fa-file-pdf-o"></i> </a>' +  document.getElementsByClassName('navigation-top')[0].innerHTML;
 
   
   
