@@ -71,6 +71,9 @@ script: |
   
   document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="printWindow"><a href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'hidden\';"><small>Sluiten <i class="fa fa-times" aria-hidden="true"></small></a><iframe  class="print-frame" src="https://md2pdf.gewoongoedegeodata.nl/" scrolling="no"></iframe></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML; 
   
+  document.getElementsByClassName('fa-times')[1].style.visibility = 'hidden';
+   document.getElementsByClassName('fa-times')[2].style.visibility = 'hidden';
+  
 scss: |
   @import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css');
   .sidebar{background: #fff;}
