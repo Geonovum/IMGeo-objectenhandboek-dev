@@ -98,6 +98,6 @@ scss: |
         }
   } 
   .faq { background-color: #007ea9; padding: 12px;}  
-  .printWindow { background: #fff; position: absolute; width: 400px; height: 200px; visibility: hidden; left: 50%; margin-left: -200px; top: 50%; margin-top: -100px; border: solid 1px blue; }
+  .printWindow { background: #fff; position: fixed; width: 400px; height: 200px; visibility: hidden; left: 50%; margin-left: -200px; top: 50%; margin-top: -100px; border: solid 1px blue; }
   
 
