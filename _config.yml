@@ -70,7 +70,7 @@ script: |
   
   document.getElementsByClassName('navigation-top')[0].innerHTML= '<div><a class="print" href="#" onclick="document.getElementsByClassName(\'print-window\')[0].style.visibility=\'visible\';" title="Print to PDF" rel="noreferrer"><i class="fa fa-file-pdf-o"> </i></a></div>' + document.getElementsByClassName('navigation-top')[0].innerHTML; 
   
-  document.getElementsByClassName('content')[0].innerHTML = '<div class="print-window"><a href="#" onclick="document.getElementsByClassName(\'print-window\')[0].style.visibility=\'hidden\';">Sluiten <i class="fa fa-times" aria-hidden="true"></a><iframe  class="print-frame" src="https://md2pdf.gewoongoedegeodata.nl/"></iframe></div>' + document.getElementsByClassName('content')[0].innerHTML; 
+  document.getElementsByClassName('content')[0].innerHTML = '<div class="print-window"><a href="#" onclick="document.getElementsByClassName(\'print-window\')[0].style.visibility=\'hidden\';"><small>Sluiten <i class="fa fa-times" aria-hidden="true"></small></a><iframe  class="print-frame" src="https://md2pdf.gewoongoedegeodata.nl/"></iframe></div>' + document.getElementsByClassName('content')[0].innerHTML; 
   
   
 scss: |
