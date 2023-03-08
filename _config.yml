@@ -69,7 +69,7 @@ script: |
   
   document.getElementsByClassName('navigation-top')[0].innerHTML= '<div><a class="print" href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'visible\';" title="Print to PDF" rel="noreferrer"><i class="fa fa-file-pdf-o"> </i></a></div>' + document.getElementsByClassName('navigation-top')[0].innerHTML; 
   
-  document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="printWindow"><a href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'hidden\';"><small>Sluiten <i class="fa fa-times" aria-hidden="true"></small></a><iframe  class="print-frame" src="https://md2pdf.gewoongoedegeodata.nl/" scrolling="no"></iframe></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML; 
+  document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="printWindow"><a href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'hidden\';"><small>Sluiten <i class="fa fa-times" aria-hidden="true"></small></a><iframe class="print-frame" src="https://md2pdf.gewoongoedegeodata.nl/" scrolling="no"></iframe></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML; 
   
   document.getElementsByClassName('fa-times')[1].style.visibility = 'hidden';
    document.getElementsByClassName('fa-times')[2].style.visibility = 'hidden';
