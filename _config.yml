@@ -98,7 +98,7 @@ scss: |
         }
   } 
   .faq { background-color: #007ea9; padding: 12px;}  
-  .printWindow { visibility: hidden;position:fixed;left:50%;margin-left:-400px;width:800px;top:50%;height:400px;margin-top:-200px;
+  .printWindow { visibility: hidden;position:fixed;left:50%;margin-left:-400px;width:800px;top:50%;height:480px;margin-top:-240px;
   background:#fff;border: solid 1px blue; }
   
 
