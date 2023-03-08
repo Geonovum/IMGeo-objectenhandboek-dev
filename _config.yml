@@ -101,7 +101,7 @@ scss: |
   } 
   .faq { background-color: #007ea9; padding: 12px;}  
   .print-window { visibility: hidden;position:fixed;left:50%;margin-left:-400px;width:800px;top:50%;height:480px;box-shadow: 3px 3px- #eee;margin-top:-240px;
-  background:#fff;border: solid 1px grey;box-sizing: border-box }
-  .print-frame {width:100%;height:100%}
+  background:#fff;border: solid 1px grey;box-sizing: border-box; text-align:right;}
+  .print-frame {margin:0;border: none; width:100%;height:100%}
   
 
