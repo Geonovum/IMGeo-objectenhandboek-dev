@@ -68,7 +68,7 @@ script: |
   document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
   
   document.getElementsByClassName('navigation-top')[0].innerHTML= '<div><a class="print" href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'visible\';" title="Print to PDF" rel="noreferrer"><i class="fa fa-file-pdf-o"> </i></a></div>' + document.getElementsByClassName('navigation-top')[0].innerHTML;  
-  document.getElementsByClassName('content')[0].innerHTML = '<iframe class="printWindow" src="https://md2pdf.gewoongoedegeodata.nl/"></iframe>' + document.getElementsByClassName('content')[0].innerHTML; 
+  document.getElementsByClassName('content')[0].innerHTML = '<iframe class="printWindow" src="https://md2pdf.gewoongoedegeodata.nl/"><button onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'hidden\';"></button></iframe>' + document.getElementsByClassName('content')[0].innerHTML; 
   
   
 scss: |
@@ -98,6 +98,6 @@ scss: |
         }
   } 
   .faq { background-color: #007ea9; padding: 12px;}  
-  .printWindow { position: absolute; visibility: hidden; margin: 25%; width: auto; height: auto; border: solid 1px blue; }
+  .printWindow { background: #fff; position: absolute; width: 400px; height: 200px; visibility: hidden; left: 50%; margin-left: -200px; top: 50%; margin-top: -100px; border: solid 1px blue; }
   
 
