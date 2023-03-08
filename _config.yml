@@ -68,7 +68,7 @@ script: |
   document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
   
   document.getElementsByClassName('navigation-top')[0].innerHTML= '<div><a class="print" href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'visible\';" title="Print to PDF" rel="noreferrer"><i class="fa fa-file-pdf-o"> </i></a></div>' + document.getElementsByClassName('navigation-top')[0].innerHTML;  
-  document.getElementsByClassName('content')[0].innerHTML = '<iframe class="printWindow" src="https://md2pdf.gewoongoedegeodata.nl/"><button onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'hidden\';"></button></iframe>' + document.getElementsByClassName('content')[0].innerHTML; 
+  document.getElementsByClassName('content')[0].innerHTML = '<div class="printWindow"><a href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'hidden\';">Sluiten <i class="fa fa-times" aria-hidden="true"></a><iframe  src="https://md2pdf.gewoongoedegeodata.nl/"></iframe></div>' + document.getElementsByClassName('content')[0].innerHTML; 
   
   
 scss: |
@@ -98,7 +98,7 @@ scss: |
         }
   } 
   .faq { background-color: #007ea9; padding: 12px;}  
-  .printWindow { visibility: hidden;position:fixed;left:50%;margin-left:-400px;width:800px;top:50%;height:480px;margin-top:-240px;
-  background:#fff;border: solid 1px blue; }
+  .printWindow { visibility: hidden;position:fixed;left:50%;margin-left:-400px;width:800px;top:50%;height:480px;box-shadow: 5px 10px;margin-top:-240px;
+  background:#fff;border: solid 1px grey;box-sizing: border-box }
   
 
