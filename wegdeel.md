@@ -173,6 +173,12 @@ Specificatie van het hoofdgebruiksdoel van het wegdeel.
 Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en
 afgescheiden is van de andere wegdelen niet uitsluitend door markering.
 
+| **synoniemen** |**types**| **onderdelen** | **deel van** | **relatie met** |
+|----------------|-----------|----------------|--------------|-----------------|
+|                | busbaan trambaan bussluis | tramrails bovenleiding | wegdeel | snelstrook spitsstrook |
+|                | metrobaan metrotunnel |   |  |  |
+
+
 **Verplicht?**
 
 Ja, verplichte inhoud BGT.
@@ -218,6 +224,10 @@ verharding.
 
 Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor
 type trein of sneltram.
+
+| **synoniemen** |**types**| **onderdelen** | **deel van** | **relatie met** |
+|----------------|-----------|----------------|--------------|-----------------|
+|  spoorovergang spoor |  | spoorbaan | wegdeel |  |
 
 **Verplicht?**
 
