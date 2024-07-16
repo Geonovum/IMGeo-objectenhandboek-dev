@@ -1,6 +1,6 @@
 ---
 permalink: /synoniemenlijst
-sort: 40
+sort: 43
 ---
 
 # Synoniemenlijst
