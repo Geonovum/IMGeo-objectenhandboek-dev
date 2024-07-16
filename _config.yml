@@ -52,31 +52,7 @@ script: |
   
    document.getElementsByClassName('navigation-top')[0].innerHTML= document.getElementsByClassName('navigation-top')[0].innerHTML + '<div><a class="print" href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'visible\';" title="Print to PDF" rel="noreferrer"><i class="fa fa-file-pdf-o"> </i></a></div>';   
    document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="printWindow"><a href="#" onclick="document.getElementsByClassName(\'printWindow\')[0].style.visibility=\'hidden\';"><small>Sluiten &times;</small></a><iframe class="printFrame" src="https://md2pdf.gewoongoedegeodata.nl/imgeo-objectenhandboek" scrolling="no"></iframe></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML; 
-
-  if(window.location.href.indexOf("synoniemenlijst")>-1){var d=document.createElement("style");d.textContent=`
-        .markdown-body {
-            max-width: 1600px;
-        }
-        .markdown-body table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        .markdown-body table th,
-        .markdown-body table td {
-            padding: 8px;
-            text-align: left;
-            border: 1px solid #ddd;
-        }
-        .markdown-body table th:first-child,
-        .markdown-body table td:first-child,
-        .markdown-body table th:nth-child(2),
-        .markdown-body table td:nth-child(2) {
-            /* Stijl voor de eerste twee kolommen */
-            background-color: #f2f2f2;
-            font-weight: bold;
-        }
-    `,document.head.appendChild(d)}
-
+ 
     
 scss: |
   @import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css');   
