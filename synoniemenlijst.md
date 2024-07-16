@@ -1,3 +1,9 @@
+---
+permalink: /synoniemenlijst
+sort: 40
+---
+
+
 # Synoniemenlijst
 
 Dit is een concept-synoniemenlijst en legt de relatie tussen veel gebruikte
