@@ -1,9 +1,10 @@
 ---
+title: OTD | Onbegroeid terreindeel
 permalink: /onbegroeidterreindeel
 sort: 5
 ---
 
-Onbegroeid terreindeel
+Onbegroeid terreindeel (OTD)
 =====================
 
 **Definitie**
@@ -470,11 +471,8 @@ Nee, optionele inhoud IMGeo.
 | fysiekVoorkomen           | zand: strand en strandwal |                 |
 | relatieveHoogteligging    |                           |                 |
 
-![dsc_2475](media/f0460d1920e80be9dbb94c11a09e9057.jpg)
+![](media/f0460d1920e80be9dbb94c11a09e9057.jpg)
 
-dsc_2475
-
-dsc_2475
 
 A:
 

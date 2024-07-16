@@ -1,9 +1,10 @@
 ---
+title: PAL | Paal
 permalink: /paal
 sort: 24
 ---
 
-Paal
+Paal (PAL)
 ====
 
 **Definitie**

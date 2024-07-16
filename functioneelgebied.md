@@ -1,9 +1,10 @@
 ---
+title: FUG | Functioneel gebied
 permalink: /functioneelgebied
 sort: 16
 ---
 
-Functioneel gebied
+Functioneel gebied (FUG)
 ==================
 
 **Definitie**
@@ -179,7 +180,7 @@ Terrein met als functie het tijdelijk of langdurig bergen van
 
 Nee, optionele inhoud IMGeo.
 
-HTML niet gevonden:: example/html/functioneelgebied-waterbergingsgebied.html
+![](media/waterbergingsgebied.jpg)
 
 ### maatschappelijke en/of publieksvoorziening
 

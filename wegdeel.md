@@ -1,9 +1,10 @@
 ---
+title: WGD | Wegdeel
 permalink: /wegdeel
 sort: 2
 ---
 
-# Wegdeel
+# Wegdeel (WGD)
 
 **Definitie**
 
@@ -173,12 +174,6 @@ Specificatie van het hoofdgebruiksdoel van het wegdeel.
 Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en
 afgescheiden is van de andere wegdelen niet uitsluitend door markering.
 
-| **synoniemen** |**types**| **onderdelen** | **deel van** | **relatie met** |
-|----------------|-----------|----------------|--------------|-----------------|
-|                | busbaan trambaan bussluis | tramrails bovenleiding | wegdeel | snelstrook spitsstrook |
-|                | metrobaan metrotunnel |   |  |  |
-
-
 **Verplicht?**
 
 Ja, verplichte inhoud BGT.
@@ -224,10 +219,6 @@ verharding.
 
 Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor
 type trein of sneltram.
-
-| **synoniemen** |**types**| **onderdelen** | **deel van** | **relatie met** |
-|----------------|-----------|----------------|--------------|-----------------|
-|  spoorovergang spoor |  | spoorbaan | wegdeel |  |
 
 **Verplicht?**
 
@@ -1204,7 +1195,9 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
-![](media/df463d83012a2a1d46bada3755ab33c3.jpg)
+![grindpad](https://user-images.githubusercontent.com/62252105/224078736-d929fa77-ea7f-434e-a798-1c2c0eec48ae.jpg)
+
+
 
 | **Wegdeel**            | **Attribuutwaarde** | **Opmerkingen** |
 |------------------------|---------------------|-----------------|

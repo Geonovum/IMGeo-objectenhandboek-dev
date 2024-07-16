@@ -1,9 +1,10 @@
 ---
+title: TUN | Tunneldeel
 permalink: /tunneldeel
 sort: 13
 ---
 
-Tunneldeel
+Tunneldeel (TUN)
 ==========
 
 **Definitie**

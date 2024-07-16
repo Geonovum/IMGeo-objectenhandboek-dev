@@ -1,9 +1,10 @@
 ---
+title: GBI | Gebouw installatie
 permalink: /gebouwinstallatie
 sort: 17
 ---
 
-Gebouw-installatie
+Gebouw-installatie (GBI)
 =================
 
 **Definitie**
