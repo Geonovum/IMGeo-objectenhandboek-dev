@@ -1,5 +1,5 @@
 ---
-title: WGD | Wegdeel
+title: WGD: Wegdeel
 permalink: /wegdeel
 sort: 1
 ---
