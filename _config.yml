@@ -11,10 +11,6 @@ exclude:
   - Makefile
   - Gemfile
   - Gemfile.lock
-  - imgeo-object.md
-  - overigeconstructie.md
-  - inrichtingselement.md
-  - registratiefgebied.md
 
 remote_theme: rundocs/jekyll-rtd-theme
 
