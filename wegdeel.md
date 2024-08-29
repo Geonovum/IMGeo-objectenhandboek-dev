@@ -1,7 +1,7 @@
 ---
 title: WGD | Wegdeel
 permalink: /wegdeel
-sort: 2
+sort: 1
 ---
 
 # Wegdeel (WGD)
