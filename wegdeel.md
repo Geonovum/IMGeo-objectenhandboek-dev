@@ -1,6 +1,6 @@
 ---
-title: WGD\: Wegdeel
-permalink: /wegdeel
+title: "WGD: Wegdeel"
+permalink: "/wegdeel"
 sort: 1
 ---
 
