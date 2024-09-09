@@ -190,6 +190,9 @@ Nee, optionele inhoud IMGeo.
 
 **Voorbeeld**
 
+![image](https://github.com/user-attachments/assets/0dfc02b7-f128-4c93-b07c-f995a92b1968)
+
+
 D :
 
 | **Overbruggingsdeel**  | **Attribuutwaarde** | **Opmerkingen** |
