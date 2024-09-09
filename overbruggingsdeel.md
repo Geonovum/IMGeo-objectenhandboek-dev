@@ -284,6 +284,8 @@ Nee, optionele inhoud IMGeo.
 
 ![](media/80c6a37e5135bf50c73d301eb05c827b.jpg)
 
+![image](https://github.com/user-attachments/assets/14e87e07-bdd5-4981-87eb-6cc314585ae7)
+
 A:
 
 | **Overbruggingsdeel**  | **Attribuutwaarde** | **Opmerkingen** |
