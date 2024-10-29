@@ -5,8 +5,10 @@ sort: 40
 
 # Synoniemenlijst
 
-Dit is een concept-synoniemenlijst en legt de relatie tussen veel gebruikte
+Dit is een synoniemenlijst en legt de relatie tussen veel gebruikte
 termen in het dagelijks werk -en begrippen in IMGeo.
+
+Gebruik de pijltjestoetsen en page-up en page-down om in de tabel te scrollen.
 
 Tabel:
 
