@@ -8,8 +8,10 @@ sort: 40
 Dit is een synoniemenlijst en legt de relatie tussen veel gebruikte termen in het dagelijks werk, en begrippen in IMGeo.
 
 Je bent hier terecht gekomen 
-ofwel omdat je een zoekterm in de zoekbalk hebt gezet (links boven in hoofdscherm) en je bij de resultaten daarvan op de synoniemenlijst gedrukt hebt, je zoekterm is geel gearceerd.
-ofwel doordat je rechtstreeks naar de synoniemenlijst button (links beneden in hoofdscherm) geklikt hebt. Je hebt nog geen zoekterm aangegeven.
+
+-ofwel omdat je een zoekterm in de zoekbalk hebt gezet (links boven in hoofdscherm) en je bij de resultaten daarvan op de synoniemenlijst gedrukt hebt, je zoekterm is geel gearceerd.
+
+-ofwel doordat je rechtstreeks naar de synoniemenlijst button (links beneden in hoofdscherm) geklikt hebt. Je hebt nog geen zoekterm aangegeven.
 
 Als je een zoekterm hebt ingevuld zal deze gearceerd zijn en ergens op deze site te vinden zijn.
 Gebruik de pijltjestoetsen en page-up en page-down om in de tabel te scrollen.
