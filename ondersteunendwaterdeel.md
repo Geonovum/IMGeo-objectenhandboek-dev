@@ -1,5 +1,6 @@
 ---
-title: OWT | Ondersteunend waterdeel
+title: Ondersteunend waterdeel
+abbr: OWT
 permalink: /ondersteunendwaterdeel
 sort: 8
 ---
