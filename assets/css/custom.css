@@ -50,6 +50,13 @@ blockquote {
     font-family: 'RO Serif', serif;
 }
 
+table {
+    display: block;
+    width: 100%;
+    width: max-content;
+    max-width: 100%;
+    overflow: auto;
+}
 
 
 /* #2980B9; */
