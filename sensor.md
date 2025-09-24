@@ -1,6 +1,6 @@
 ---
 title: Sensor
-abrr: SNS
+abbr: SNS
 permalink: /sensor
 sort: 26
 ---
