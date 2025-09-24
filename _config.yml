@@ -55,7 +55,7 @@ script: |
  
     
 scss: |
-  //@import url('_layout/ROSans.css');   
+  //@import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css');   ## CORS probleem tools.geostandaarden.nl
   .sidebar{background: #fff;}
   a {color:#008dc9;}
   .toctree a{color:#000; padding-left: 8}
