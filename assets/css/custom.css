@@ -1,5 +1,5 @@
 .wy-nav-side {
-    background: #ffffff;    
+    background: #fcfcfc;    
 }
 
 .wy-menu-vertical a {
@@ -11,6 +11,10 @@
 
 .rst-versions {
     background: #2980B9 !important;  
+}
+
+.rst-versions a {
+    color: #fcfcfc;
 }
 
 .addons {
