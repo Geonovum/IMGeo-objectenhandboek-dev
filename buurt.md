@@ -6,7 +6,7 @@ permalink: /buurt
 sort: 33
 ---
 
-Buurt (BRT)
+Buurt
 =====
 
 **Definitie**
