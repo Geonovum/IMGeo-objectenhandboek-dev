@@ -56,7 +56,11 @@ script: |
  
     
 scss: |
+<<<<<<< HEAD
   //@import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css');   ## CORS probleem tools.geostandaarden.nl
+=======
+  @import url('_layout/ROSans.css');   
+>>>>>>> parent of c0c43a6 (Update _config.yml)
   .sidebar{background: #fff;}
   a {color:#008dc9;}
   .toctree a{color:#000; padding-left: 8}
