@@ -10,7 +10,10 @@
 } 
 
 .rst-versions {
-    background: #2980B9 !important;  
+    background: #2980B9 !important; 
+    line-height: 18px;
+    font-size: 90%;
+
 }
 
 .rst-versions a {
