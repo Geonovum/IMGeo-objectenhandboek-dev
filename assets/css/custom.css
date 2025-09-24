@@ -43,5 +43,11 @@
 blockquote {
     color: #1f1d1d;
     font-style: oblique;
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: .25em solid #dfe2e5;
+    font-family: 'RO Serif', serif;
+}
+}
 }
 /* #2980B9; */
