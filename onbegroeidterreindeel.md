@@ -1,5 +1,6 @@
 ---
-title: OTD | Onbegroeid terreindeel
+title: Onbegroeid terreindeel
+abbr: OTD
 permalink: /onbegroeidterreindeel
 sort: 5
 ---
