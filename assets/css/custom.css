@@ -19,7 +19,7 @@
 
 .addons {
     background: #1f1d1d;
-    visibility: hidden;
+    display: none;
 }
 
 .lk01 {
