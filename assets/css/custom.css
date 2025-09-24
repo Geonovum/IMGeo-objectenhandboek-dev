@@ -1,5 +1,13 @@
 .wy-nav-side {
 
-    background: white;
-    color: black;
+    background: #ffffff;
+    
+}
+
+.wy-menu-vertical a {
+    color: black;    
+}
+
+.wy-menu-vertical a {
+    background: grey;    
 }
