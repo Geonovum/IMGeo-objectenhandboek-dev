@@ -18,6 +18,7 @@
 
 .rst-versions a {
     color: #fcfcfc;
+    font-weight: bold;
 }
 
 .beheer-info {
@@ -34,7 +35,7 @@
 }
 
 .faq, .syn, .beheer {
-    padding: 12px;
+    /*padding: 12px; */
 }
 
 #logo img { width: 60%; margin-left: auto; margin-right: auto; display: block }
