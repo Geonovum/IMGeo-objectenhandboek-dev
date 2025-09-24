@@ -5,7 +5,7 @@ permalink: /begroeidterreindeel
 sort: 6
 ---
 
-BegroeidTerreindeel (BTD)
+BegroeidTerreindeel
 ===================
 
 **Definitie**
