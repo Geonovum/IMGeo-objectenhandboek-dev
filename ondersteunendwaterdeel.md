@@ -5,7 +5,7 @@ permalink: /ondersteunendwaterdeel
 sort: 8
 ---
 
-Ondersteunend waterdeel (OWT)
+Ondersteunend waterdeel
 ======================
 
 **Definitie**
