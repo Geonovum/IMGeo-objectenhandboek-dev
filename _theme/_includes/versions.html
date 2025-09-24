@@ -11,12 +11,12 @@
             <a style="text-decoration: none" href="synoniemenlijst">&nbsp;&nbsp;Synoniemen</a>
         </div>
       </div> 
-            <div class="status d-flex flex-justify-between p-2"> 
+      <div class="beheer"> 
                 <div class="title p-1"><i class="fa fa-book"></i> Beheer en licentie</div> 
             <div class="branch p-1"> <span class="name"> master </span> <i class="fa fa-caret-down"></i> 
             </div> 
         </div> 
-        <div class="addons d-flex flex-column height-full p-2">
+        <div class="beheer-info p-2">
             <dl>
                 <dt>
                     <small>Geonovum ontwikkelt en beheert het digitale objectenhandboek BGT | IMGeo in opdracht van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties.<br><br>Suggesties en (betere) foto's zijn van harte welkom op <a href="mailto:imgeo@geonovum.nl"> imgeo@geonovum.nl </a></small>.
@@ -35,13 +35,13 @@
                 </div> 
 
 <script>
-  document.querySelector(".status").addEventListener("click", function() {
-    document.querySelector(".addons").classList.toggle("hidden");
+  document.querySelector(".beheer").addEventListener("click", function() {
+    document.querySelector(".beheer-info").classList.toggle("hidden");
   });
 </script>
 
 <style>
-  .addons.hidden { display: none; }
+  .beheer-info.hidden { display: none; }
 </style>
 
     <!--span class="rst-current-version" data-toggle="rst-current-version">
