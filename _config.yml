@@ -13,7 +13,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-remote_theme: benbalter/retlab
+remote_theme: benbalter/jekyll-remote-theme
 
 readme_index:
   with_frontmatter: true
