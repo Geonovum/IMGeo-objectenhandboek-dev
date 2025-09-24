@@ -1,7 +1,7 @@
 {%- comment -%}
     This will generate a list (<ul> and <li>) with all the pages not marked to
     be excluded from the navigation.
-    The entries will be ordered by the "nav_order" front matter, and if the
+    The entries will be ordered by the "sort" front matter, and if the
     pages are within a folder it will create a section for those entries (only
     1 level deep).
 
@@ -17,7 +17,7 @@
 {%- assign sections = "" %}
 {%- assign last_loop_page = false %}
 {%- assign set_next_page = false %}
-{%- assign nav = site.pages | sort:"nav_order" %}
+{%- assign nav = site.pages | sort:"sort" %}
 
 {%- comment %} First loop to print pages without categories and collect an array of categories {%- endcomment %}
 {%- for nav_item in nav %}
