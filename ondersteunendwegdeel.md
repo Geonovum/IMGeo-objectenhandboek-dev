@@ -5,7 +5,7 @@ permalink: /ondersteunendwegdeel
 sort: 2
 ---
 
-# Ondersteunend wegdeel (OWG)
+# Ondersteunend wegdeel
 
 **Definitie**
 
