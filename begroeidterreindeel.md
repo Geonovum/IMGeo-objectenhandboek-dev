@@ -1,5 +1,6 @@
 ---
-title: BTD | Begroeid terreindeel
+title: Begroeid terreindeel
+abrr: BTD 
 permalink: /begroeidterreindeel
 sort: 6
 ---

@@ -1,5 +1,6 @@
 ---
-titel: "INS: Installatie"
+titel: Installatie
+abbr: INS
 permalink: /installatie
 sort: 21
 ---
