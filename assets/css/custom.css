@@ -11,7 +11,12 @@
 
 
 .toctree-l1:hover {
-    background: grey;    
+    background: grey; 
+    font-size: 2em;   
+}
+
+.toctree-l1:hover {
+    background: #2980B9 !important;    
 }
 
 
