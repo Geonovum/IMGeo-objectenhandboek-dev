@@ -17,7 +17,7 @@
     color: #fcfcfc;
 }
 
-.addons {
+.beheer-info {
     background: #1f1d1d;
     display: none;
 }
@@ -28,6 +28,10 @@
     border: solid 1px #2980B9;
     font-size: xx-small;
     margin-right: 10px;
+}
+
+.faq {
+    padding: 12px;
 }
 
 #logo img { width: 60%; margin-left: auto; margin-right: auto; display: block }
