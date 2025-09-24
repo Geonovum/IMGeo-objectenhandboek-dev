@@ -26,6 +26,14 @@
     padding: 6px;
 }
 
+.beheer-info a {
+ font-weight: normal;
+ padding: 10px;
+ margin-left: 10px;
+
+}
+
+
 .lk01 {
 
     color: #2980B9;
