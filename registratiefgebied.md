@@ -1,4 +1,5 @@
 ---
+title: Registratief gebied
 permalink: /registratiefgebied
 sort: 32
 ---
