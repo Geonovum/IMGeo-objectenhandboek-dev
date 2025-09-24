@@ -1,5 +1,5 @@
 ---
-title: Gebouw installatie
+title: Gebouw-installatie
 abbr: GBI
 permalink: /gebouwinstallatie
 sort: 17
