@@ -13,7 +13,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-remote_theme: carlosperate/jekyll-theme-rtd
+remote_theme: clearpathrobotics/jekyll-rtd-theme
 
 readme_index:
   with_frontmatter: true
