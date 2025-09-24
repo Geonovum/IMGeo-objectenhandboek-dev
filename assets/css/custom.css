@@ -1,7 +1,5 @@
 .wy-nav-side {
-
-    background: #ffffff;
-    
+    background: #ffffff;    
 }
 
 .wy-menu-vertical a {
@@ -16,7 +14,6 @@
 }
 
 .addons {
-
     background: #1f1d1d;
 }
 
@@ -24,7 +21,8 @@
 
     color: #2980B9;
     border: solid 1px #2980B9;
-    font-size: small;
+    font-size: xx-small;
+    margin-right: 10px;
 }
 
 /* #2980B9; */
