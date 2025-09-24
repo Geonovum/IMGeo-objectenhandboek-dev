@@ -6,7 +6,7 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
-  - jekyll-remote-theme
+  #- jekyll-remote-theme
 
 exclude:
   - Makefile
