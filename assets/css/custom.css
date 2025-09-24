@@ -8,16 +8,14 @@
     color: black;    
 }
 
+.wy-menu ul li:hover {
+
+background: #2980B9 !important;  
+} 
 
 
-.toctree-l1:hover {
-    background: grey; 
-    font-size: 2em;   
-}
 
-.toctree-l1:hover {
-    background: #2980B9 !important;    
-}
+
 
 
 /* #2980B9; */
