@@ -5,7 +5,7 @@ permalink: /bord
 sort: 20
 ---
 
-Bord (BRD)
+Bord
 ====
 
 **Definitie**
