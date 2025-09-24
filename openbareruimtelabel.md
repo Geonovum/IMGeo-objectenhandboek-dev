@@ -1,10 +1,11 @@
 ---
-title: ORL | Openbare ruimte label
+title: Openbare ruimte label
+abbr: ORL
 permalink: /openbareruimtelabel
 sort: 31
 ---
 
-Openbare ruimte label (ORL)
+Openbare ruimte label
 ===================
 
 **Definitie**
