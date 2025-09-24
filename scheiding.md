@@ -1,10 +1,11 @@
 ---
-title: SHD | Scheiding
+title: Scheiding
+abbr: SHD
 permalink: /scheiding
 sort: 15
 ---
 
-Scheiding (SHD)
+Scheiding
 =========
 
 **Definitie**
