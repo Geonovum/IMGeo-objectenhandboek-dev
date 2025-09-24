@@ -1,10 +1,11 @@
 ---
-title: OBD | Overbruggingsdeel
+title: Overbruggingsdeel
+abbr: OBD
 permalink: /overbruggingsdeel
 sort: 12
 ---
 
-# Overbruggingsdeel (OBD)
+# Overbruggingsdeel
 
 **Definitie**
 
