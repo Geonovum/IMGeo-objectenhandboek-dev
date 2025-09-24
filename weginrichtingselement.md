@@ -1,5 +1,6 @@
 ---
-title: WGI | Weginrichtingselement
+title: Weginrichtingselement
+abbr: WGI
 permalink: /weginrichtingselement
 sort: 29
 ---
