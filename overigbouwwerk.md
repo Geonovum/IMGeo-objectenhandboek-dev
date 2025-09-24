@@ -1,10 +1,11 @@
 ---
-title: OBW | Overig bouwwerk
+title: Overig bouwwerk
+abbr: OBW
 permalink: /overigbouwwerk
 sort: 11
 ---
 
-Overig bouwwerk (OBW)
+Overig bouwwerk
 =====================
 
 **Definitie**
