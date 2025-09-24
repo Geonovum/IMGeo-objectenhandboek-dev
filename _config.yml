@@ -6,13 +6,14 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
+  - jekyll-remote-theme
 
 exclude:
   - Makefile
   - Gemfile
   - Gemfile.lock
 
-remote_theme: rundocs/jekyll-rtd-theme 
+remote_theme: benbalter/retlab
 
 readme_index:
   with_frontmatter: true
