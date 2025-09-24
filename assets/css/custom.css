@@ -7,14 +7,12 @@
 .wy-menu-vertical a {
     color: black;    
 }
-
 .toctree-l1 a:hover {
     background: #2980B9 !important;  
 } 
 
-
-
-
-
+.rst-versions {
+    background: #2980B9 !important;  
+}
 
 /* #2980B9; */
