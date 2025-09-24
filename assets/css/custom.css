@@ -8,6 +8,8 @@
     color: black;    
 }
 
-.wy-menu-vertical ul:hover {
+
+
+.toctree-l1:hover {
     background: grey;    
 }
