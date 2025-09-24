@@ -32,8 +32,9 @@
     border: solid 1px #2980B9;
     font-size: xx-small;
     margin-right: 10px;
-    width: 15px;
-    display:list-item;
+    width: 30px;
+    text-align: center;
+    display: inline-block !important;
 }
 
 .faq, .syn, .beheer {
