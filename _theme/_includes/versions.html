@@ -33,9 +33,18 @@
                     <a href="https://github.com/Geonovum/IMGeo-objectenhandboek/issues" title="Open issues: 0"> <i class="fa fa-question-circle-o"></i> Issues </a> </dd> <dd> <a href="https://github.com/Geonovum/IMGeo-objectenhandboek/zipball/master" title="Size: 55719 Kb"> <i class="fa fa-download"></i> Download </a> </dd> </dl> <hr> <div class="license f6 pb-2"> This <a href="/IMGeo-objectenhandboek/" title="IMGeo objectenhandboek">Software</a> is under the terms of <a href="https://github.com/Geonovum/IMGeo-objectenhandboek">Creative Commons Attribution 4.0 International</a>. 
                     </div> 
                 </div> 
-          
 
-    <span class="rst-current-version" data-toggle="rst-current-version">
+<script>
+  document.querySelector(".status").addEventListener("click", function() {
+    document.querySelector(".addons").classList.toggle("hidden");
+  });
+</script>
+
+<style>
+  .addons.hidden { display: none; }
+</style>
+
+    <!--span class="rst-current-version" data-toggle="rst-current-version">
       {%- if site.repo_url %}
         <a href="{{ site.repo_url }}" class="fa fa-github" target="_blank" style="float: left; color: #fcfcfc"> GitHub</a>
       {%- endif %}
@@ -45,5 +54,5 @@
       {%- if next_page %}
         <span style="margin-left: 15px"><a href="{{ next_page.url | absolute_url }}" style="color: #fcfcfc">Next &raquo;</a></span>
       {%- endif %}
-    </span>
+    </span-->
 </div>
