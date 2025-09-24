@@ -1,5 +1,6 @@
 ---
-title: "OWG: Ondersteunend wegdeel"
+title: Ondersteunend wegdeel
+abbr: OWG
 permalink: /ondersteunendwegdeel
 sort: 2
 ---
