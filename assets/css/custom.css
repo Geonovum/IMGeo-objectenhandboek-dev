@@ -46,6 +46,10 @@ blockquote {
     border-left: .25em solid #dfe2e5;
     font-family: 'RO Serif', serif;
 }
+
+.beheer-info {
+    padding: 12px;
 }
-}
+
+
 /* #2980B9; */
