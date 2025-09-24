@@ -5,7 +5,7 @@ permalink: /overigeconstructie
 sort: 10
 ---
 
-OverigeConstructie
+Overige constructie
 ==================
 
 **Definitie**
