@@ -5,7 +5,7 @@ permalink: /kast
 sort: 22
 ---
 
-Kast (KST)
+Kast
 ====
 
 **Definitie**
