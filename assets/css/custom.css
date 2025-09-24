@@ -8,7 +8,7 @@
     color: black;    
 }
 
-.wy-menu ul li:hover {
+.toctree-l1 a:hover {
     background: #2980B9 !important;  
 } 
 
