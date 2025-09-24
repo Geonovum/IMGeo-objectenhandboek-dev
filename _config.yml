@@ -18,7 +18,7 @@ readme_index:
   with_frontmatter: true
   
 script: | 
-  console.log("Hallo IMGeo objectenhandboek!");
+  console.log("Hallo IMGeo objectenhandboek 001!");
   var url_prefix = "https://geonovum.github.io/IMGeo-objectenhandboek/";
   var breadcrumbs = window.location.href.replace(url_prefix, '').split('/');
   breadcrumbs.forEach(addLink);
