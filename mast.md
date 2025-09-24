@@ -5,7 +5,7 @@ permalink: /mast
 sort: 23
 ---
 
-Mast (MST)
+Mast
 ====
 
 **Definitie**
