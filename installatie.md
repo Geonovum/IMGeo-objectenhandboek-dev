@@ -5,7 +5,7 @@ permalink: /installatie
 sort: 21
 ---
 
-Installatie (INS)
+Installatie
 ===========
 
 **Definitie**
