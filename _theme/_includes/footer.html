@@ -17,7 +17,18 @@
    <div class="footer-content">
   <div class="footer-text">
     <p><small>
-      Laatst bijgewerkt: 25-09-2025 <br>
+      Laatst bijgewerkt: 25-09-2025 &nbsp;&nbsp; 
+              {%- if site.site_author %}
+          © Copyright {{ site.time | date: "%Y" }} {{ site.site_author }}.
+        {%- endif %}
+        {%- if site.github.build_revision %}
+          {%- if site.repo_url %}
+            <span class="commit">Revision <a href="{{ site.repo_url | url }}/commit/{{ site.github.build_revision }}" target="_blank"><code>{{ site.github.build_revision | truncate: 8, "" }}</code></a>.
+          {%- else %}
+            <span class="commit">Revision <code>{{ site.github.build_revision | truncate: 8, "" }}</code>.</span>
+          {%- endif %}
+        {%- endif %}
+        <br />
       Dit objectenhandboek is een <em>praktijkrichtlijn</em> die helpt bij de toepassing van de BGT- en IMGeo-standaarden.  
       De officiële catalogi zijn altijd leidend.  
       Geonovum doet zijn uiterste best deze praktijkrichtlijn goed te laten aansluiten bij de uitvoeringspraktijk en wettelijke verplichtingen.  
@@ -32,7 +43,7 @@
 
 
     
-      <p>
+      
         {%- if site.site_author %}
           © Copyright {{ site.time | date: "%Y" }} {{ site.site_author }}.
         {%- endif %}
@@ -43,7 +54,7 @@
             <span class="commit">Revision <code>{{ site.github.build_revision | truncate: 8, "" }}</code>.</span>
           {%- endif %}
         {%- endif %}
-      </p>
+      
   
     <small style="text-align: center; width: 100%">
     <!--Built with
