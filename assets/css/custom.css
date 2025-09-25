@@ -1,9 +1,9 @@
 html, body, *:not(i):not(.fa):not(.fas):not(.far):not(.fab):not(.icon) {
-  font-family: "RO Sans", Arial, sans-serif !important;
+  font-family: "RO Sans", Arial, sans-serif;
 }
 
 h1,h2,h3,h4,h5 {
- font-family: "RO Sans Heading", Arial, sans-serif !important;
+ font-family: "RO Sans Heading", Arial, sans-serif;
 }
 
 .wy-nav-side {
@@ -66,14 +66,13 @@ h1,h2,h3,h4,h5 {
 #logo img { width: 60%; margin-left: auto; margin-right: auto; display: block }
 
 blockquote {
-    padding: 0 1em;
-    
+    padding: 0 1em;    
     border-left: .25em solid #dfe2e5;
     
 }
 
 blockquote p {
-    font-family: "RO Serif", Georgia, serif !important;
+    font-family: "RO Serif", Georgia, serif;
     color: #6a737d;
 }
 
