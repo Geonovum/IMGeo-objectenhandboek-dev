@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5 {
     color: white;
 } 
 
-.lk01:hover {
+.toctree-l1 a:hover .lk01 {
     border: solid 1px white;
 } 
 .rst-versions {
