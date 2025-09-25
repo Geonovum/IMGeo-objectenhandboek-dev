@@ -13,11 +13,14 @@ h1,h2,h3,h4,h5 {
 .wy-menu-vertical a {
     color: black;    
 }
-.toctree-l1 a:hover, .toctree-l1 a:hover span {
+.toctree-l1 a:hover, .lk01:hover {
     background: #2980B9 !important;  
     color: white;
 } 
 
+.lk01:hover {
+    border: solid 1px white;
+} 
 .rst-versions {
     background: #2980B9 !important; 
     line-height: 18px;
