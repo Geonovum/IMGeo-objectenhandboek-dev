@@ -1,4 +1,4 @@
-html, body, *:not(i):not(.fa):not(.fas):not(.far):not(.fab):not(.icon):not(blockquote):not(h1):not(h2):not(h3):not(h4):not(h5) {
+html, body, *:not(i):not(.fa):not(.fas):not(.far):not(.fab):not(.icon):not(blockquote):not(h1):not(h2):not(h3):not(h4):not(h5):not(blockquote p strong) {
   font-family: "RO Sans", Arial, sans-serif;
 }
 
@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5 {
 } 
 
 .current {
-    margin-left: 40px;
+    margin-left: 38px;
 }
 .toctree-l1 a:hover .lk01 {
     border: solid 1px white;
@@ -52,7 +52,6 @@ h1,h2,h3,h4,h5 {
 
 
 .lk01 {
-
     color: #2980B9;
     border: solid 1px #2980B9;
     font-size: xx-small;
@@ -60,6 +59,7 @@ h1,h2,h3,h4,h5 {
     width: 30px;
     text-align: center;
     display: inline-block !important;
+    font-style: italic;
 }
 
 .faq, .syn, .beheer {
