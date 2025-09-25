@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5 {
 .wy-menu-vertical a {
     color: black;    
 }
-.toctree-l1 a:hover {
+.toctree-l1 a:hover, .toctree-l1 a:hover span {
     background: #2980B9 !important;  
     color: white;
 } 
@@ -21,24 +21,26 @@ h1,h2,h3,h4,h5 {
 .rst-versions {
     background: #2980B9 !important; 
     line-height: 18px;
-    font-size: 90%;
-
+    
 }
 
-.rst-versions a {
+.rst-versions a, .beheer {
     color: #fcfcfc;
     font-weight: bold;
+    font-size: 90%;
 }
 
 .beheer-info {
     background: #1f1d1d; 
     padding: 6px;
+
 }
 
 .beheer-info a {
  font-weight: normal;
  padding: 10px;
  margin-left: 10px;
+ font-size: 90%;
 
 }
 
@@ -62,9 +64,14 @@ h1,h2,h3,h4,h5 {
 
 blockquote {
     padding: 0 1em;
-    color: #6a737d;
+    
     border-left: .25em solid #dfe2e5;
+    
+}
+
+blockquote p {
     font-family: "RO Serif", Georgia, serif !important;
+    color: #6a737d;
 }
 
 table {
