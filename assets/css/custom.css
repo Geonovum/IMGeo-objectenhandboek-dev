@@ -1,3 +1,11 @@
+html, body, *:not(i):not(.fa):not(.fas):not(.far):not(.fab):not(.icon) {
+  font-family: "RO Sans", Arial, sans-serif !important;
+}
+
+h1,h2,h3,h4,h5 {
+ font-family: "RO Sans Heading", Arial, sans-serif !important;
+}
+
 .wy-nav-side {
     background: #fcfcfc;    
 }
@@ -55,7 +63,7 @@ blockquote {
     padding: 0 1em;
     color: #6a737d;
     border-left: .25em solid #dfe2e5;
-    font-family: 'RO Serif', serif;
+     font-family: "RO Serif", Georgia, serif;
 }
 
 table {
@@ -65,6 +73,7 @@ table {
     max-width: 100%;
     overflow: auto;
 }
+
 
 
 /* #2980B9; */
