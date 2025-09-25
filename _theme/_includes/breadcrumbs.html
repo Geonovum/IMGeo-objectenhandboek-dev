@@ -13,9 +13,9 @@
         {%- endif %}
         {%- endfor %}
         <li>
-          {%- if (page.abbr != false or page.abbr != "...") %}
+          {%- if (page.abbr != false and page.abbr != "...") %}
           {{ page.abbr }}:&nbsp; 
-          {% endif %}
+          {%- endif %}
           {{ page.title }}</li>
       {%- endif %}
     {%- endif %}
