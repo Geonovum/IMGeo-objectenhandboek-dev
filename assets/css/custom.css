@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .beheer-info {
-    background: #1f1d1d; 
+    background: #404040; 
     padding: 6px;
 
 }
@@ -85,6 +85,11 @@ table {
     width: max-content;
     max-width: 100%;
     overflow: auto;
+}
+
+.branch {
+    font-size: small;
+    color: #27AE60;
 }
 
 
