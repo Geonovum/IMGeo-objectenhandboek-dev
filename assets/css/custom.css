@@ -114,11 +114,18 @@ table tr {
 
 }
 
-.footer-logo {
 
-    width: 100px;
+.footer-content {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;        
+  gap: 1em;                       
+}
+
+.footer-logo img {
+  height: 100px; 
+  display: block;
 }
 
 
 
-/* #2980B9; */
