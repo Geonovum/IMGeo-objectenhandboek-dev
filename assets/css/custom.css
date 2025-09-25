@@ -119,7 +119,8 @@ table tr {
   display: flex;
   justify-content: space-between; 
   align-items: flex-start;        
-  gap: 1em;                       
+  gap: 1em;           
+  text-align:justify;            
 }
 
 .footer-logo img {
