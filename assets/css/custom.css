@@ -1,4 +1,4 @@
-html, body, *:not(i):not(.fa):not(.fas):not(.far):not(.fab):not(.icon):not(blockquote) {
+html, body, *:not(i):not(.fa):not(.fas):not(.far):not(.fab):not(.icon):not(blockquote):not(h1):not(h2):not(h3):not(h4):not(h5) {
   font-family: "RO Sans", Arial, sans-serif;
 }
 
