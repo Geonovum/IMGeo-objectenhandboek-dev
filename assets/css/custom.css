@@ -18,6 +18,9 @@ h1,h2,h3,h4,h5 {
     color: white;
 } 
 
+.current {
+    margin-left: 40px;
+}
 .toctree-l1 a:hover .lk01 {
     border: solid 1px white;
 } 
