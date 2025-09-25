@@ -97,5 +97,17 @@ table {
 }
 
 
+table {   
+    margin-bottom: 20px;
+}
+
+table thead {
+
+    background: #2980B9;
+    color: white;
+
+}
+
+
 
 /* #2980B9; */
