@@ -80,3 +80,7 @@
     {%- endfor %}
 {%- endfor %}
 
+<script type="text/javascript">
+    $(".toctree-l1.current .toctree-expand").first()
+  .after('<span class="lk01">'+$("#abbr").html()+'</span>');
+</script>
