@@ -46,18 +46,19 @@ fetch('{{ site.baseurl }}/search.json')
       resultsDiv.innerHTML = results.map(r => {
         const page = pages.find(p => p.url === r.ref);
 
-        // snippet rondom de match
-        const contentLower = page.content.toLowerCase();
-        const queryLower = query.toLowerCase();
-        const pos = contentLower.indexOf(queryLower);
+      // snippet rondom de match
+      let snippet = '';
+      if (pos >= 0) {
+        const start = Math.max(0, pos - 50);
+        const end = Math.min(page.content.length, pos + 100);
+        snippet = page.content.substring(start, end).replace(/\n/g, ' ');
 
-        let snippet = '';
-        if (pos >= 0) {
-          const start = Math.max(0, pos - 50);
-          const end = Math.min(page.content.length, pos + 100);
-          snippet = page.content.substring(start, end).replace(/\n/g, ' ');
-          snippet = '...' + snippet + '...';
-        }
+        // highlight zoekterm (case-insensitive)
+        const regex = new RegExp(query, 'gi');
+        snippet = snippet.replace(regex, match => `<mark>${match}</mark>`);
+
+        snippet = '...' + snippet + '...';
+      }
 
         return `
           <div class="search-result">
