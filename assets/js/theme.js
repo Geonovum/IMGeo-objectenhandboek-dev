@@ -93,8 +93,7 @@ require = function require(modules, cache, entry) {
 
                 // Click on current menu item
                 $(document).on("click", ".wy-menu-vertical .current ul li a", function() {
-                    var link = $(this);
-                    console.log(link);
+                    var link = $(this);                    
                     $("[data-toggle='wy-nav-shift']").removeClass("shift");
                     $("[data-toggle='rst-versions']").toggleClass("shift");
                     self.toggleCurrent(link);
@@ -115,7 +114,7 @@ require = function require(modules, cache, entry) {
                 $(".wy-menu-vertical ul").not(".simple").siblings("a").each(function() {
 
                     var link = $(this);                    
-                    var expand = $('<span class="toctree-expand"></span>'); // hier kun je lk01 maken
+                    var expand = $('<span class="toctree-expand"></span>');
                     expand.on("click", function(event) {
                         self.toggleCurrent(link);
                         event.stopPropagation();
