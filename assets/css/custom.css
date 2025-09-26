@@ -74,6 +74,9 @@ h1,h2,h3,h4,h5 {
 h1 .lk01 {
     font-size: xx-large;
     float: right;
+    width: auto;
+    padding: 5px;
+    margin-right: 0px;
 }
 
 
