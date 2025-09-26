@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: {{ site.baseurl }}/search.json
+permalink: /search.json
 nav_exclude: true
 ---
 [
