@@ -81,19 +81,14 @@
 {%- endfor %}
 
 <script type="text/javascript">
-    document.addEventListener("DOMContentLoaded", () => {
-
-       
+    document.addEventListener("DOMContentLoaded", () => {  
         
         //const currentExpand = document.querySelector(".toctree-l1.current a .toctree-expand");
         const currentExpand = document.querySelector(".toctree-l1.current a");
-        console.log(currentExpand.innerHTML);
-
-        if (currentExpand && !currentExpand.innerHTML.includes("lk01")) {
-            const extra = document.createElement("span");
-            extra.classList.add("lk01");            
-            extra.innerHTML = document.getElementById('abbr').textContent;
-            currentExpand.innerHTML = extra + currentExpand.innerHTML;
+        
+        if (currentExpand && !currentExpand.innerHTML.includes("lk01")) {         
+            lk01 = document.getElementById('abbr').textContent;
+            currentExpand.innerHTML = '<span class="lk01">' + lk01 + '</span>' + currentExpand.innerHTML;
         }
     });
 </script>
