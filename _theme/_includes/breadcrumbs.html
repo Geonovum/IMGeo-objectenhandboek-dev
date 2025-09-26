@@ -13,8 +13,8 @@
         {%- endif %}
         {%- endfor %}
         <li>
-          {%- if (page.abbr and page.abbr != "...") %}
-          <span id="abbr" style="display: none;">{{ page.abbr }}</span>: &nbsp; 
+          {%- if (page.abbr) %}
+          <span id="abbr" style="display: none;">{{ page.abbr }}</span> 
           {%- endif %}
           {{ page.title }}</li>
       {%- endif %}
