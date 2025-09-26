@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zoek
-permalink: /search.html
+permalink: {{ site.baseurl }}/search.html
 ---
 <h1>Zoeken in IMGeo Objectenhandboek</h1>
 
@@ -14,7 +14,7 @@ permalink: /search.html
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
 <script>
-fetch('/search.json')
+fetch('{{ site.baseurl }}/search.json')
   .then(res => res.json())
   .then(pages => {
     const idx = lunr(function () {
