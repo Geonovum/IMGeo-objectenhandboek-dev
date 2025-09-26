@@ -13,7 +13,7 @@
         {%- endif %}
         {%- endfor %}
         <li>
-          {%- if (page.abbr != false and page.abbr != "...") %}
+          {%- if (page.abbr and page.abbr != "...") %}
           {{ page.abbr }}:&nbsp; 
           {%- endif %}
           {{ page.title }}</li>
