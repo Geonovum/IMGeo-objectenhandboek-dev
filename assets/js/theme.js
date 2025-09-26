@@ -130,6 +130,7 @@ require = function require(modules, cache, entry) {
                 try {
                     var menu = $(".wy-menu-vertical");
                     var item = menu.find('[href="' + hash + '"]');
+                    console.log(item);
                     if (item.length === 0) {
                         // fallback: match section ID
                         var section = $('.document [id="' + hash.substring(1) + '"]').closest("div.section");
@@ -137,8 +138,7 @@ require = function require(modules, cache, entry) {
                         if (item.length === 0) item = menu.find('[href="#"]');
                     }
 
-                    if (item.length > 0) {
-                        console.log(item, item.parent());
+                    if (item.length > 0) {                        
                         $(".wy-menu-vertical .current").removeClass("current");
                         item.addClass("current");
                         item.closest("li.toctree-l1").addClass("current");
