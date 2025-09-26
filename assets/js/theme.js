@@ -138,6 +138,7 @@ require = function require(modules, cache, entry) {
                     }
 
                     if (item.length > 0) {
+                        console.log(item);
                         $(".wy-menu-vertical .current").removeClass("current");
                         item.addClass("current");
                         item.closest("li.toctree-l1").addClass("current");
