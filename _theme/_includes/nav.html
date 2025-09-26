@@ -89,11 +89,11 @@
         const currentExpand = document.querySelector(".toctree-l1.current a");
         console.log(currentExpand.innerHTML);
 
-        if (currentExpand) {
+        if (currentExpand && !currentExpand.innerHTML.includes("lk01")) {
             const extra = document.createElement("span");
             extra.classList.add("lk01");            
             extra.innerHTML = document.getElementById('abbr').textContent;
-            currentExpand.insertAdjacentElement("afterend", extra);
+            currentExpand.innerHTML = extra + currentExpand.innerHTML;
         }
     });
 </script>
