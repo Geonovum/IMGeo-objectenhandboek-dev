@@ -1,5 +1,9 @@
 html, body, *:not(i):not(.fa):not(.fas):not(.far):not(.fab):not(.icon):not(blockquote):not(h1):not(h2):not(h3):not(h4):not(h5):not(blockquote p strong) {
-  font-family: "RO Sans", Arial, sans-serif;
+  font-family: "RO Sans", Arial, sans-serif;  
+}
+
+p, blockquote {
+    text-align: justify;
 }
 
 h1,h2,h3,h4,h5 {
@@ -44,6 +48,7 @@ h1,h2,h3,h4,h5 {
     background: #404040; 
     padding: 6px;
     font-size: small;
+    text-align: justify;
 
 }
 
