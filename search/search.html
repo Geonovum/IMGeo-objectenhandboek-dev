@@ -67,11 +67,12 @@ fetch('{{ site.baseurl }}/search.json')
           snippet = snippet.replace(regex, match => `<mark>${match}</mark>`);
 
           snippet = '...' + snippet + '...';
-        }        
+        }   
+
         const pageUrl = page.url + '?q=' + encodeURIComponent(query);
         return `
           <div class="search-result">
-            <h3><a href="${page.url}">${page.title}</a></h3>
+            <h3><a href="${pageUrl}">${page.title}</a></h3>
             <p>${snippet}</p>
           </div>
         `;
