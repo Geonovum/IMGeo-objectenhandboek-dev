@@ -19,6 +19,9 @@ theme: null
 include:
   - _theme
 
+url: "https://geonovum.github.io"
+baseurl: "/IMGeo-objectenhandboek-dev"
+
 layouts_dir: _theme/_layouts
 includes_dir: _theme/_includes
 sass:
