@@ -84,12 +84,12 @@
     document.addEventListener("DOMContentLoaded", () => {
         
         //const currentExpand = document.querySelector(".toctree-l1.current a .toctree-expand");
-        const currentExpand = document.querySelector(".toctree-l1.current a");
+        const currentExpand = document.querySelector(".toctree-l1.current a .toctree-expand");
         console.log(currentExpand);
         if (currentExpand) {
             const extra = document.createElement("span");
             extra.classList.add("lk01");
-            extra.innerHTML = document.getElementById('abbr').innerHTML;
+            extra.innerHTML = document.getElementById('abbr').textContent;
             currentExpand.insertAdjacentElement("afterend", extra);
         }
     });
