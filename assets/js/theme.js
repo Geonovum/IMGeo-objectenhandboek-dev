@@ -113,7 +113,8 @@ require = function require(modules, cache, entry) {
                 // Add expand toggle for all non-simple menu links
                 $(".wy-menu-vertical ul").not(".simple").siblings("a").each(function() {
 
-                    var link = $(this);                    
+                    var link = $(this);
+                    console.log(link);                    
                     var expand = $('<span class="toctree-expand"></span>');
                     expand.on("click", function(event) {
                         self.toggleCurrent(link);
