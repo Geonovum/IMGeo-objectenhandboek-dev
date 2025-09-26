@@ -2,4 +2,17 @@
 layout: default
 ---
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const params = new URLSearchParams(window.location.search);
+  const query = params.get('q');
+  if (!query) return;
+
+  // highlight alle matches in de pagina
+  const bodyText = document.body.innerHTML;
+  const regex = new RegExp(query, 'gi');
+  document.body.innerHTML = bodyText.replace(regex, match => `<mark>${match}</mark>`);
+});
+</script>
+
 {{ content }}
