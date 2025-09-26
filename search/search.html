@@ -15,7 +15,6 @@ permalink: /search.html
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
 <script>
-<script>
 fetch('{{ site.baseurl }}/search.json')
   .then(res => res.json())
   .then(pages => {
