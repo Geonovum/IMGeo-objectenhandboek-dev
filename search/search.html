@@ -13,7 +13,7 @@ permalink: /search
 
 <div id="results"></div>
 
-<script src="/assets/js/lunr.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/lunr.min.js"></script>
 <script>
 fetch('{{ site.baseurl }}/search.json')
   .then(res => res.json())
@@ -68,7 +68,7 @@ fetch('{{ site.baseurl }}/search.json')
 
           snippet = '...' + snippet + '...';
         }        
-
+        const pageUrl = page.url + '?q=' + encodeURIComponent(query);
         return `
           <div class="search-result">
             <h3><a href="${page.url}">${page.title}</a></h3>
