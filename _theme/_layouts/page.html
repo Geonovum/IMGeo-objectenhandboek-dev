@@ -14,10 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document.body.innerHTML = bodyText.replace(regex, match => `<mark>${match}</mark>`);
 
 
-  
   var h1 = document.querySelector('h1');
-    var abbr = document.getElementById('abbr').textContent;
-    //console.log(abbr);
+  console.log(h1[0]);
+  var abbr = document.getElementById('abbr').textContent;
+    console.log(abbr);
     var span = document.createElement('span');
     span.className = 'lk01';
     span.textContent = abbr;
