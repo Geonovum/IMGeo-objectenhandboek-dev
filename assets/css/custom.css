@@ -59,6 +59,8 @@ h1,h2,h3,h4,h5 {
  font-size: 90%;
 }
 
+
+
 .lk01 {
     color: #2980B9;
     border: solid 1px #2980B9;
@@ -66,9 +68,13 @@ h1,h2,h3,h4,h5 {
     margin-right: 10px;
     width: 30px;
     text-align: center;
-    display: inline-block !important;
-    
+    display: inline-block !important;    
 }
+
+h1 .lk01 {
+    font-size:large
+}
+
 
 .faq, .syn, .beheer {
     padding: 6px;
