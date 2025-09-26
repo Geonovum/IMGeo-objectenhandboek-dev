@@ -84,7 +84,7 @@ blockquote {
 }
 
 blockquote p {
-    font-family: "RO Serif", Georgia, serif;
+    font-family: "RO Serif", Georgia, serif !important;
     color: #6a737d;
 }
 
