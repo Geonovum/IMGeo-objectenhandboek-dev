@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const regex = new RegExp(query, 'gi');
   document.body.innerHTML = bodyText.replace(regex, match => `<mark>${match}</mark>`);
 });
+
+document.getElementsByTagName('h1')[0].innerHTML = document.getElementsByTagName('h1')[0].innerHTML + '<span class="lk01' + document.getElementById('abbr').innerHTML + '</span>';
 </script>
 
 {{ content }}
