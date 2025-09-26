@@ -1,3 +1,5 @@
+#url: "https://geonovum.github.io"
+base_url: "/IMGeo-objectenhandboek-dev"
 title: IMGeo objectenhandboek
 lang: nl
 description: Praktijkhandleiding voor toepassing van de BGT|IMGeo standaarden bij de objectafbakening
@@ -19,8 +21,7 @@ theme: null
 include:
   - _theme
 
-#url: "https://geonovum.github.io"
-base_url: "/IMGeo-objectenhandboek-dev"
+
 
 layouts_dir: _theme/_layouts
 includes_dir: _theme/_includes
@@ -29,5 +30,4 @@ sass:
 
   
 readme_index:
-  with_frontmatter: true
-  
+  with_frontmatter: true 
