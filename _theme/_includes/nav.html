@@ -89,7 +89,12 @@
         if (currentExpand && !currentExpand.innerHTML.includes("lk01")) {         
             lk01 = document.getElementById('abbr').textContent;
             currentExpand.innerHTML = '<span class="lk01">' + lk01 + '</span>' + currentExpand.innerHTML;
-            
+
+
+            var h1 = document.querySelector('h1');
+            console.log(h1[0]);            
+            h1.innerHTML = h1.innerHTML + '<span class="lk01">' + lk01 + '</span>';
+
         }
     });
 </script>
