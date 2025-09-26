@@ -46,12 +46,11 @@ h1,h2,h3,h4,h5 {
 
 }
 
-.beheer-info a {
+.beheer-info dd a {
  font-weight: normal;
  padding: 10px;
  margin-left: 10px;
  font-size: 90%;
-
 }
 
 
