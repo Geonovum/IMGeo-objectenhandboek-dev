@@ -36,7 +36,7 @@ fetch('{{ site.baseurl }}/search.json')
         return;
       }
 
-     const queryTerms = query.split(/\s+/).map(t => t + '*').join(' ');
+     const queryTerms = query.split(/\s+/).map(t => '*' + t + '*').join(' ');
      const results = idx.search(queryTerms);
 
       if (!results.length) {
