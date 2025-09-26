@@ -127,10 +127,8 @@ require = function require(modules, cache, entry) {
             reset: function() {
                 var hash = encodeURI(window.location.hash) || "#";
                 try {
-                    var menu = $(".wy-menu-vertical");
-                    console.log(hash);
-                    var item = menu.find('[href="' + hash + '"]');
-                    console.log(item);
+                    var menu = $(".wy-menu-vertical");                    
+                    var item = menu.find('[href="' + hash + '"]');                    
                     if (item.length === 0) {
                         // fallback: match section ID
                         var section = $('.document [id="' + hash.substring(1) + '"]').closest("div.section");
