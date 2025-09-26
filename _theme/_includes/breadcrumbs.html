@@ -14,7 +14,7 @@
         {%- endfor %}
         <li>
           {%- if (page.abbr and page.abbr != "...") %}
-          <span id="abbr">{{ page.abbr }}</span>: &nbsp; 
+          <span id="abbr" style="display: none;">{{ page.abbr }}</span>: &nbsp; 
           {%- endif %}
           {{ page.title }}</li>
       {%- endif %}
