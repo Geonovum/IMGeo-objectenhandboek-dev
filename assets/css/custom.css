@@ -114,6 +114,11 @@ tr {
 
 }
 
+.results {
+
+    margin-top: 40px;
+}
+
 
 .footer-content {
   display: flex;
