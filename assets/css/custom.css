@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5 {
     width: 30px;
     text-align: center;
     display: inline-block !important;
-    font-style: italic;
+    
 }
 
 .faq, .syn, .beheer {
