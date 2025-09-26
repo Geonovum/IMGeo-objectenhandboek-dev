@@ -1,6 +1,7 @@
 ---
 layout: null
 permalink: /search.json
+nav_exclude: true
 ---
 [
 {%- assign pages_to_index = site.pages | where_exp:"page","page.search_exclude != true" -%}
