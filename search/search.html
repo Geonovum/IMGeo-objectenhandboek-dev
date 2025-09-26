@@ -2,7 +2,7 @@
 layout: default
 title: Zoeken
 nav_exclude: true
-permalink: /search.html
+permalink: /search
 ---
 <h1>Zoeken in IMGeo Objectenhandboek</h1>
 
@@ -19,19 +19,23 @@ fetch('{{ site.baseurl }}/search.json')
   .then(res => res.json())
   .then(pages => {
     const idx = lunr(function () {
-      this.ref('url')
-      this.field('title')
-      this.field('content')
-      pages.forEach(doc => this.add(doc))
+      this.ref('url');
+      this.field('title');
+      this.field('content');
+      pages.forEach(doc => this.add(doc));
     });
 
     const form = document.getElementById('search-form');
     const input = document.getElementById('search-box');
     const resultsDiv = document.getElementById('results');
 
-    form.addEventListener('submit', e => {
-      e.preventDefault();
-      const query = input.value;
+    // zoekfunctie als aparte functie
+    function doSearch(query) {
+      if (!query) {
+        resultsDiv.innerHTML = '<p>Voer een zoekterm in.</p>';
+        return;
+      }
+
       const results = idx.search(query);
 
       if (!results.length) {
@@ -42,12 +46,11 @@ fetch('{{ site.baseurl }}/search.json')
       resultsDiv.innerHTML = results.map(r => {
         const page = pages.find(p => p.url === r.ref);
 
-        // zoek de positie van de query in content (case-insensitive)
+        // snippet rondom de match
         const contentLower = page.content.toLowerCase();
         const queryLower = query.toLowerCase();
         const pos = contentLower.indexOf(queryLower);
 
-        // maak snippet rondom de match
         let snippet = '';
         if (pos >= 0) {
           const start = Math.max(0, pos - 50);
@@ -63,7 +66,21 @@ fetch('{{ site.baseurl }}/search.json')
           </div>
         `;
       }).join('');
+    }
+
+    // submit-handler
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      doSearch(input.value);
     });
+
+    // bij pagina-load kijken naar ?q=
+    const params = new URLSearchParams(window.location.search);
+    const queryFromUrl = params.get('q');
+    if (queryFromUrl) {
+      input.value = queryFromUrl;
+      doSearch(queryFromUrl); // direct resultaten tonen
+    }
   });
 </script>
 
