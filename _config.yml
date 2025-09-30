@@ -2,18 +2,13 @@ title: IMGeo objectenhandboek
 lang: nl
 description: Praktijkhandleiding voor toepassing van de BGT|IMGeo standaarden bij de objectafbakening
 
+theme: null
+#remote_theme: clearpathrobotics/jekyll-rtd-theme 
+
 plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
-
-exclude:
-  - Makefile
-  - Gemfile
-  - Gemfile.lock
-
-theme: null
-#remote_theme: clearpathrobotics/jekyll-rtd-theme 
 
 include:
   - _theme
@@ -21,6 +16,12 @@ layouts_dir: _theme/layouts
 includes_dir: _theme/includes
 sass:
   sass_dir: _theme/_sass
+
+exclude:
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+  
 readme_index:
   with_frontmatter: true
   
