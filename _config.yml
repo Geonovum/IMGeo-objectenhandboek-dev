@@ -12,8 +12,8 @@ plugins:
 
 include:
   - _theme
-layouts_dir: _theme/layouts
-includes_dir: _theme/includes
+layouts_dir: _theme/_layouts
+includes_dir: _theme/_includes
 sass:
   sass_dir: _theme/_sass
 
