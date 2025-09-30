@@ -12,8 +12,15 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-remote_theme: clearpathrobotics/jekyll-rtd-theme 
+theme: null
+#remote_theme: clearpathrobotics/jekyll-rtd-theme 
 
+include:
+  - _theme
+layouts_dir: _theme/layouts
+includes_dir: _theme/includes
+sass:
+  sass_dir: _theme/_sass
 readme_index:
   with_frontmatter: true
   
