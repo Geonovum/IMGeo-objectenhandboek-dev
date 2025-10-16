@@ -1,11 +1,10 @@
 ---
-title: Vegetatie-object
-abbr: VGO
+title: VGO | Vegetatieobject
 permalink: /vegetatieobject
 sort: 30
 ---
 
-Vegetatie-object
+VegetatieObject (VGO)
 ===============
 
 **Definitie**

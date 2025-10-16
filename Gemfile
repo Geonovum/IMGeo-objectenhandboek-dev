@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
-#gem "jekyll-rtd-theme"
-#gem "jekyll-remote-theme"
+# gem "jekyll-theme-amp"
+# gem "jekyll-rtd-theme"
+# gem "ed."
 
 group :jekyll_plugins do
   gem "jekyll-breadcrumbs"

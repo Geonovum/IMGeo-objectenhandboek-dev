@@ -1,11 +1,10 @@
 ---
-title: Functioneel gebied
-abbr: FUG
+title: FUG | Functioneel gebied
 permalink: /functioneelgebied
 sort: 16
 ---
 
-Functioneel gebied
+Functioneel gebied (FUG)
 ==================
 
 **Definitie**

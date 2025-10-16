@@ -1,11 +1,10 @@
 ---
-title: Openbare ruimte
-abbr: OPR
+title: OPR | Openbare ruimte
 permalink: /openbareruimte
 sort: 34
 ---
 
-Openbare ruimte
+Openbare ruimte (OPR)
 ==============
 
 **Definitie**

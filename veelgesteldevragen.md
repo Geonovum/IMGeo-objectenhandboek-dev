@@ -1,6 +1,6 @@
 ---
 permalink: /veelgesteldevragen
-nav_exclude: true
+sort: 39
 ---
 
 Veelgestelde vragen

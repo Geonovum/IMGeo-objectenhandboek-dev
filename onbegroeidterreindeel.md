@@ -1,11 +1,10 @@
 ---
-title: Onbegroeid terreindeel
-abbr: OTD
+title: OTD | Onbegroeid terreindeel
 permalink: /onbegroeidterreindeel
 sort: 5
 ---
 
-Onbegroeid terreindeel
+Onbegroeid terreindeel (OTD)
 =====================
 
 **Definitie**

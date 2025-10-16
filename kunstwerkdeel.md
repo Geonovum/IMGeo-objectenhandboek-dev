@@ -1,11 +1,10 @@
 ---
-title: Kunstwerkdeel
-abbr: KWD
+title: KWD | Kunstwerkdeel
 permalink: /kunstwerkdeel
 sort: 14
 ---
 
-Kunstwerkdeel
+Kunstwerkdeel (KWD)
 =============
 
 **Definitie**

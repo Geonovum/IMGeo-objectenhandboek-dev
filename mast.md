@@ -1,11 +1,10 @@
 ---
-title: Mast
-abbr: MST
+title: MST | Mast
 permalink: /mast
 sort: 23
 ---
 
-Mast
+Mast (MST)
 ====
 
 **Definitie**

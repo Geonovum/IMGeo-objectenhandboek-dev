@@ -1,7 +1,3 @@
----
-nav_exclude: true
----
-
 IMGeo objectenhandboek
 ======================
 

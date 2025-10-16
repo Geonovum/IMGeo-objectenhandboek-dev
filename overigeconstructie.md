@@ -1,11 +1,10 @@
 ---
-title: Overige constructie
-abbr: OCO
+title: OCO | Overige constructie
 permalink: /overigeconstructie
 sort: 10
 ---
 
-Overige constructie
+OverigeConstructie (OCO)
 ==================
 
 **Definitie**

@@ -1,11 +1,10 @@
 ---
-title: Wijk
-abbr: WYK
+title: WYK | Wijk
 permalink: /wijk
 sort: 37
 ---
 
-Wijk
+Wijk (WYK)
 ====
 
 **Definitie**
